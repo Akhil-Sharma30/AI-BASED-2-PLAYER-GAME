@@ -14,7 +14,8 @@
 - Using Unity **Machine Learning and Artificial intelligent Agents** Toolkit (ML-Agents) is an open-source project that enables games and simulations to serve as environments for training intelligent agents.
 
 #Images
-     ![ChessGame](https://koenig-media.raywenderlich.com/uploads/2018/03/Chess-feature.png)
+
+![ChessGame](https://koenig-media.raywenderlich.com/uploads/2018/03/Chess-feature.png)
 
 # Features 
  1. **Multiplayer Environment** available.  
