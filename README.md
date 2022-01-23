@@ -5,7 +5,7 @@
  1. [About Project](https://github.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME#about-project)
  2. [Images](https://github.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME#images)
  3. [Features](https://github.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME#features)
- 4. [Rules]
+ 4. [Rules](https://github.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME#rules)
  5. [Contributors](https://github.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME#contributors) 
 
 
