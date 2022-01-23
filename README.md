@@ -15,7 +15,9 @@
 
 # Images:
 
-![ChessGame](https://koenig-media.raywenderlich.com/uploads/2018/03/Chess-feature.png)
+![ChessBoard](https://raw.githubusercontent.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME/main/images/img1.png)
+![BoardAngle1](https://raw.githubusercontent.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME/main/images/img2.png)
+![BoardAngle2](https://raw.githubusercontent.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME/main/images/img3.png)
 
 # Features 
  1. **Multiplayer Environment** available.  
