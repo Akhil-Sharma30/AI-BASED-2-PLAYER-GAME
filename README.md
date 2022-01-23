@@ -5,7 +5,8 @@
  1. [About Project](https://github.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME#about-project)
  2. [Images](https://github.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME#images)
  3. [Features](https://github.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME#features)
- 4. [Contributors](https://github.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME#contributors) 
+ 4. [Rules]
+ 5. [Contributors](https://github.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME#contributors) 
 
 
 # About Project 
@@ -24,6 +25,10 @@
  2. **AI-BASED** 
   - BOT for playing 1v1 against the computer in different modes.
  3. Playing with **Knight** **,** **King** and **pawn** specific pieces on the board generated randomly from 4x4 to 8x8.
+
+# Rules:
+ 1. **User can not give checkmate.**
+ 2. If the user does not have **valid moves** then he **losses.**
 
 
 
