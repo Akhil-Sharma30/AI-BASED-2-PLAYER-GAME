@@ -2,7 +2,7 @@
  > Semester Long Project
 
  # Table of Contents
- 1. [About Project](src/README.md#About Project)
+ 1. [About Project](https://github.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME#about-project)
  2. [Images](src/README.md#Images:)
  3. [Features](src/README.md#Features)
  4. [Contributors](src/README.md#Contributors:) 
