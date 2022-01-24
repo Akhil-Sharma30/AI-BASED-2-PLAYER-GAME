@@ -4,9 +4,10 @@
  # Table of Contents
  1. [About Project](https://github.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME#about-project)
  2. [Images](https://github.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME#images)
- 3. [Features](https://github.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME#features)
- 4. [Rules](https://github.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME#rules)
- 5. [Contributors](https://github.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME#contributors) 
+ 3. [Initial Setup](https://github.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME#initial-setup)
+ 4. [Features](https://github.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME#features)
+ 5. [Rules](https://github.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME#rules)
+ 6. [Contributors](https://github.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME#contributors) 
 
 
 # About Project 
@@ -21,9 +22,9 @@
 ![BoardAngle2](https://raw.githubusercontent.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME/main/images/img3.png)
 
 # Intial Setup 
-1. Initially a 4x4 board with knights at the opposite corners to be made in multiplayer mode.
-2. Try to implement the AI for generating tree structure for more number of cases
-3. Also try it with 4 pawns in intial positions in a 4x4 board.
+1. Initially a **4x4 board** with **knights** at the opposite corners to be made in **multiplayer mode.**
+2. Try to implement the AI for generating tree structure for **more number of cases.**
+3. Also try it with **4 pawns** in intial positions in a **4x4 board.**
 
 
 # Features 
