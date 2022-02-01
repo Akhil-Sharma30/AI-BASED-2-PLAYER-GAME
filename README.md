@@ -21,6 +21,10 @@
 ![BoardAngle1](https://raw.githubusercontent.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME/main/images/img2.png)
 ![BoardAngle2](https://raw.githubusercontent.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME/main/images/img3.png)
 
+>Board setup from 4X4 to 8X8 sizes 
+
+![differentBoard](https://cdn.discordapp.com/attachments/892400357815230534/937963848047161395/board_pieces.png)
+
 # Intial Setup 
 1. Initially a **4x4 board** with **knights** at the opposite corners to be made in **multiplayer mode.**
 2. Try to implement the AI for generating tree structure for **more number of cases.**
