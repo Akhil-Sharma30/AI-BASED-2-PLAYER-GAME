@@ -44,7 +44,7 @@
 
 
 
-## Contributors:
+### Contributors:
 - Parth Tripathi [Github](https://github.com/parthxtripathi)
 - Akhil Sharma [Github](https://github.com/Akhil-Sharma30)
 - Anant Saxena [Github](https://github.com/anantsaxena09)
