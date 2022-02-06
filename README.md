@@ -25,7 +25,7 @@
 
 ![differentBoard](https://cdn.discordapp.com/attachments/892400357815230534/937963848047161395/board_pieces.png)
 
-# Intial Setup 
+# Initial Setup 
 1. Initially a **4x4 board** with **knights** at the opposite corners to be made in **multiplayer mode.**
 2. Try to implement the AI for generating tree structure for **more number of cases.**
 3. Also try it with **4 pawns** in intial positions in a **4x4 board.**
