@@ -15,6 +15,12 @@
 
 - Using Unity **Machine Learning and Artificial intelligent Agents** Toolkit (ML-Agents) is an open-source project that enables games and simulations to serve as environments for training intelligent agents.
 
+# Images:
+
+![ChessBoard](https://raw.githubusercontent.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME/main/images/img1.png)
+![BoardAngle1](https://raw.githubusercontent.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME/main/images/img2.png)
+![BoardAngle2](https://raw.githubusercontent.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME/main/images/img3.png)
+
 >Chess Board setup from 4X4 to 8X8 sizes 
 
 ![differentBoard](https://cdn.discordapp.com/attachments/892400357815230534/937963848047161395/board_pieces.png)

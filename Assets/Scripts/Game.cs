@@ -12,9 +12,9 @@ public class Game : MonoBehaviour
     //Matrices needed, positions of each of the GameObjects
     //Also separate arrays for the players in order to easily keep track of them all
     //Keep in mind that the same objects are going to be in "positions" and "playerBlack"/"playerWhite"
-    private GameObject[,] positions = new GameObject[8, 8];
-    private GameObject[] playerBlack = new GameObject[16];
-    private GameObject[] playerWhite = new GameObject[16];
+    private GameObject[,] positions = new GameObject [5,5];
+    private GameObject[] playerBlack = new GameObject[1];
+    private GameObject[] playerWhite = new GameObject[1];
 
     //current turn
     private string currentPlayer = "white";
@@ -26,11 +26,8 @@ public class Game : MonoBehaviour
     //that Unity can call for you
     public void Start()
     {
-        playerWhite = new GameObject[] {  Create("white_knight", 7, 0)
-             };
-           
-        playerBlack = new GameObject[] { Create("black_knight",0,7) 
-             };
+        playerWhite = new GameObject[] { Create("white_knight", 4, 0) };
+        playerBlack = new GameObject[] { Create("black_knight", 0, 4) };
 
         //Set all piece positions on the positions board
         for (int i = 0; i < playerBlack.Length; i++)
@@ -61,13 +58,23 @@ public class Game : MonoBehaviour
 
     public void SetPositionEmpty(int x, int y)
     {
-        positions[x, y] = null;
+        if (currentPlayer == "white")
+        {
+            playerWhite = new GameObject[] { Create("cross", x, y) };
+        }
+        else
+        {
+            playerBlack = new GameObject[] { Create("cross", x, y) };
+        }
+        /*positions[x, y] = null;*/
+
     }
 
     public GameObject GetPosition(int x, int y)
     {
         return positions[x, y];
     }
+
 
     public bool PositionOnBoard(int x, int y)
     {

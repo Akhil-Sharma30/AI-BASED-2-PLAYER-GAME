@@ -19,11 +19,11 @@ public class MovePlate : MonoBehaviour
 
     public void Start()
     {
-        if (attack)
+       /* if (attack)
         {
             //Set to red
             gameObject.GetComponent<SpriteRenderer>().color = new Color(1.0f, 0.0f, 0.0f, 1.0f);
-        }
+        }*/
     }
 
     public void OnMouseUp()
@@ -31,19 +31,21 @@ public class MovePlate : MonoBehaviour
         controller = GameObject.FindGameObjectWithTag("GameController");
 
         //Destroy the victim Chesspiece
-        if (attack)
+       /* if (attack)
         {
             GameObject cp = controller.GetComponent<Game>().GetPosition(matrixX, matrixY);
 
-            if (cp.name == "white_king") controller.GetComponent<Game>().Winner("black");
-            if (cp.name == "black_king") controller.GetComponent<Game>().Winner("white");
+            if (cp.name = white_king) controller.GetComponent<Game>().Winner("black");
+            if (cp.name = black_king) controller.GetComponent<Game>().Winner("white");
 
             Destroy(cp);
         }
-
+*/
         //Set the Chesspiece's original location to be empty
-        controller.GetComponent<Game>().SetPositionEmpty(reference.GetComponent<Chessman>().GetXBoard(), 
-            reference.GetComponent<Chessman>().GetYBoard());
+
+        controller.GetComponent<Game>().SetPositionEmpty(reference.GetComponent<Chessman>().GetXBoard(),
+        reference.GetComponent<Chessman>().GetYBoard());
+
 
         //Move reference chess piece to this position
         reference.GetComponent<Chessman>().SetXBoard(matrixX);
