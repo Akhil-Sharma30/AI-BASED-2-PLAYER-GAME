@@ -8,11 +8,14 @@ public class Game : MonoBehaviour
 {
     //Reference from Unity IDE
     public GameObject chesspiece;
+  
+
 
     //Matrices needed, positions of each of the GameObjects
     //Also separate arrays for the players in order to easily keep track of them all
     //Keep in mind that the same objects are going to be in "positions" and "playerBlack"/"playerWhite"
-    private GameObject[,] positions = new GameObject [5,5];
+    //private GameObject[,] positions = new GameObject [5,5];
+    private GameObject[,] positions;
     private GameObject[] playerBlack = new GameObject[1];
     private GameObject[] playerWhite = new GameObject[1];
 
@@ -26,8 +29,11 @@ public class Game : MonoBehaviour
     //that Unity can call for you
     public void Start()
     {
-        playerWhite = new GameObject[] { Create("white_knight", 4, 0) };
-        playerBlack = new GameObject[] { Create("black_knight", 0, 4) };
+        var slider_text = FindObjectOfType<sliderScript>();
+        positions = new GameObject[slider_text.value, slider_text.value];
+        Debug.Log(slider_text);
+        playerWhite = new GameObject[] { Create("white_knight", slider_text.value-1, 0) };
+        playerBlack = new GameObject[] { Create("black_knight", 0, slider_text.value-1) };
 
         //Set all piece positions on the positions board
         for (int i = 0; i < playerBlack.Length; i++)
@@ -111,7 +117,7 @@ public class Game : MonoBehaviour
             gameOver = false;
 
             //Using UnityEngine.SceneManagement is needed here
-            SceneManager.LoadScene("Game"); //Restarts the game by loading the scene over again
+            SceneManager.LoadScene("Game1"); //Restarts the game by loading the scene over again
         }
     }
     

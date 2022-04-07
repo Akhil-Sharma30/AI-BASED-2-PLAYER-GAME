@@ -7,6 +7,8 @@ public class sceneBack : MonoBehaviour
 {
     public void playGame()
     {
+        Destroy(FindObjectOfType<sliderScript>());
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+
     }
 }

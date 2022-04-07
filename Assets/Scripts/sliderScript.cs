@@ -5,24 +5,31 @@ using UnityEngine.UI;
 
 public class sliderScript : MonoBehaviour
 {
-    private Slider slider;
+    public Slider slider;
+    public int value;
 
-    private Text sliderText;
+    public Text sliderText;
 
     private void Awake()
     {
-        slider = GetComponentInParent<Slider>();
-        sliderText = GetComponent<Text>();
+        
+        DontDestroyOnLoad(this.gameObject);
+
     }
 
     private void Start()
     {
-        UpdateText(slider.value);
-        slider.onValueChanged.AddListener(UpdateText);
+        if (slider != null)
+        {
+            UpdateText(slider.value);
+            slider.onValueChanged.AddListener(UpdateText);
+        }
+        
     }
 
     void UpdateText(float val)
     {
         sliderText.text = slider.value.ToString();
+        value = (int)slider.value;
     }
 }
