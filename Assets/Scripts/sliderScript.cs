@@ -12,7 +12,7 @@ public class sliderScript : MonoBehaviour
 
     private void Awake()
     {
-        
+       
         DontDestroyOnLoad(this.gameObject);
 
     }

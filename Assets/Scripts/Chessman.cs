@@ -130,8 +130,10 @@ public class Chessman : MonoBehaviour
             }
         }*/
 
+    private bool anyFreePositions = false;
     public void LMovePlate()
     {
+        anyFreePositions = false;
         PointMovePlate(xBoard + 1, yBoard + 2);
         PointMovePlate(xBoard - 1, yBoard + 2);
         PointMovePlate(xBoard + 2, yBoard + 1);
@@ -140,6 +142,9 @@ public class Chessman : MonoBehaviour
         PointMovePlate(xBoard - 1, yBoard - 2);
         PointMovePlate(xBoard - 2, yBoard + 1);
         PointMovePlate(xBoard - 2, yBoard - 1);
+        if (!anyFreePositions) {
+            GameObject.FindGameObjectWithTag("GameController").GetComponent<Game>().Winner(player);
+        }
     }
 
     /*    public void SurroundMovePlate()
@@ -220,6 +225,7 @@ public class Chessman : MonoBehaviour
         MovePlate mpScript = mp.GetComponent<MovePlate>();
         mpScript.SetReference(gameObject);
         mpScript.SetCoords(matrixX, matrixY);
+        anyFreePositions = true;
     }
 
 }
