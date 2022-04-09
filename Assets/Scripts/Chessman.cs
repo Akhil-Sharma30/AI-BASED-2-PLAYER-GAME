@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Chessman : MonoBehaviour
 {
-
+    
     //References to objects in our Unity Scene
     public GameObject controller;
     public GameObject movePlate;
@@ -144,6 +144,7 @@ public class Chessman : MonoBehaviour
         PointMovePlate(xBoard - 2, yBoard - 1);
         if (!anyFreePositions) {
             GameObject.FindGameObjectWithTag("GameController").GetComponent<Game>().Winner(player);
+
         }
     }
 

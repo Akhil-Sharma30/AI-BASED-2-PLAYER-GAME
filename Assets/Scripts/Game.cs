@@ -8,7 +8,8 @@ public class Game : MonoBehaviour
 {
     //Reference from Unity IDE
     public GameObject chesspiece;
-  
+    public AudioClip clip;
+    public AudioListener Listener;
 
 
     //Matrices needed, positions of each of the GameObjects
@@ -127,8 +128,10 @@ public class Game : MonoBehaviour
 
         //Using UnityEngine.UI is needed here
         GameObject.FindGameObjectWithTag("WinnerText").GetComponent<Text>().enabled = true;
-        GameObject.FindGameObjectWithTag("WinnerText").GetComponent<Text>().text = playerWinner + " LOSSES THE GAME";
-
+        GameObject.FindGameObjectWithTag("WinnerText").GetComponent<AudioSource>().enabled = true;
+        GameObject.FindGameObjectWithTag("WinnerText").GetComponent<Text>().text = playerWinner + " LOSES THE GAME";
+        
+      
         GameObject.FindGameObjectWithTag("RestartText").GetComponent<Text>().enabled = true;
     }
 }
