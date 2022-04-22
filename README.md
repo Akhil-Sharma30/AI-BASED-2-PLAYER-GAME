@@ -19,7 +19,7 @@
 
 ![ChessBoard](https://raw.githubusercontent.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME/main/images/img1.png)
 ![BoardAngle1](https://raw.githubusercontent.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME/main/images/img2.png)
-![BoardAngle2](https://raw.githubusercontent.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME/main/images/img3.png)
+![BoardAngle2](https://cdn.discordapp.com/attachments/957368184837660773/966949743928414248/Screenshot_20220422-120210_Clash_Of_Knight.jpg)
 
 >Chess Board setup from 4X4 to 8X8 sizes 
 
