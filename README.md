@@ -19,11 +19,11 @@
 
 ![ChessBoard](https://raw.githubusercontent.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME/main/images/img1.png)
 ![BoardAngle1](https://raw.githubusercontent.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME/main/images/img2.png)
-![BoardAngle2](https://cdn.discordapp.com/attachments/957368184837660773/966949743928414248/Screenshot_20220422-120210_Clash_Of_Knight.jpg)
+//![BoardAngle2](https://cdn.discordapp.com/attachments/957368184837660773/966949743928414248/Screenshot_20220422-120210_Clash_Of_Knight.jpg)
 
 >Chess Board setup from 4X4 to 8X8 sizes 
 
-![differentBoard](https://cdn.discordapp.com/attachments/892400357815230534/937963848047161395/board_pieces.png)
+![differentBoard](https://github.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME/blob/main/Screenshot%202022-04-22%20120432.png)
 
 # Initial Setup 
 1. Initially a **4x4 board** with **knights** at the opposite corners to be made in **multiplayer mode.**
