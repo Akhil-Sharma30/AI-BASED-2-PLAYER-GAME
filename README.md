@@ -26,15 +26,16 @@
 
 # Initial Setup 
 1. Initially a **4x4 board** with **knights** at the opposite corners to be made in **multiplayer mode.**
-2. Try to implement the AI for generating tree structure for **more number of cases.**
-3. Also try it with **4 pawns** in initial positions in a **4x4 board.**
-
+2. Also try it with **4 pawns** in initial positions in a **4x4 board.**
 
 # Features 
  1. **Multiplayer Environment** available.  
  2. **AI-BASED** 
   - BOT for playing 1v1 against the computer in different modes.
  3. Playing with **Knight** **,** **King** and **pawn** specific pieces on the board generated randomly from 4x4 to 8x8.
+
+# Future Work
+1. Try to implement the AI for generating tree structure for **more number of cases.**
 
 # Rules:
  1. **User can not give checkmate.**
