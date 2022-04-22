@@ -22,7 +22,7 @@
 
 >Chess Board setup from 4X4 to 8X8 sizes 
 
-![differentBoard](https://github.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME/blob/main/Screenshot%202022-04-22%20120432.png)
+![differentBoard](https://github.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME/blob/main/Images/boardSize.png)
 
 # Initial Setup 
 1. Initially a **4x4 board** with **knights** at the opposite corners to be made in **multiplayer mode.**
