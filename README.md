@@ -1,5 +1,6 @@
 # AI-BASED-2-PLAYER-GAME
- > Semester Long Project
+ > Semester Long Project Under the MentorShip of Prof. Shobha Bagai
+
 
  # Table of Contents
  1. [About Project](https://github.com/Akhil-Sharma30/AI-BASED-2-PLAYER-GAME#about-project)
